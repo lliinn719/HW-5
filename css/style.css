@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft JhengHei;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px auto;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    line-height: 35px;
+}

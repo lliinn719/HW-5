@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,Verdana,Geneva,Tahoma,"Heiti TC","Microsoft JhengHei",sans-serif;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    width: 1280px;
+    margin: 0px auto;
+}
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+}
+.top {
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+.top .top_img {
+    width: 150px;
+    margin-top: 20px;
+}
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    margin-top: -30px;
+}
+.right img {
+    width: 25px;
+    vertical-align: middle;
+}
+.right .right_text {
+    width: 100px;
+    border: 0;
+    border-bottom: 0.5px solid #697259;
+}
+.right li a {
+    color: #697259;
+    font-size: 12px;
+}
+.right .right_img {
+    width: 35px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: #697259;
+    font-size: 12px;
+    line-height: 25px;
+}
+.navbar li {
+    width: 80px;
+    text-align: center;
+}
+.navbar li a {
+    color: #697259;
+    font-size: 12px;
+    line-height: 25px;
+}
+.navbar li:hover {
+    background-color: #dfdfdf;
+}
+.navbar .navbar_text::before {
+    content:"WOMEN";
+}
+.navbar .navbar_text:hover::before {
+    content: "女裝";
+}
+.navbar .navbar_text2::before {
+    content:"MEN";
+}
+.navbar .navbar_text2:hover::before {
+    content: "男裝";
+}
+.navbar .navbar_text3::before {
+    content:"KIDS";
+}
+.navbar .navbar_text3:hover::before {
+    content: "童裝";
+}
+.nav_Right {
+    display: flex;
+    justify-content: flex-end;
+}
+.content_block img {
+    width: 1280px;
+}
+.content_block .banner {
+    margin-top: 20px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #697259;
+    color: #dfdfdf;
+    padding: 40px 0px;
+}
+.footer_block {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar2 li a {
+    font-size: 14px;
+    color: #dfdfdf;
+    padding-right: 30px;
+}
+.navbar2 li a:hover {
+    color: #fff;
+}
+.block_Left .title {
+    padding:30px 0px 15px 0px;
+    font-size: 20px;
+}
+.block_Left span {
+    line-height: 28px;
+    font-size: 12px;
+}
+.block_Left p {
+    font-size: 12px;
+    padding-top: 30px;
+}
+.block_Right p {
+    font-size: 12px;
+    color: #dfdfdf;
+}
+form .E-mail {
+    width: 350px;
+    border: 0.5px solid #fff;
+    background-color: transparent;
+    margin-top: 15px;
+    padding: 10px;
+}
+form .btn {
+    background: #dfdfdf;
+    border: 0;
+    color: #697259;
+    width: 135px;
+    height: 38px;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+form .btn:hover {
+    background: #fff;
+    cursor: pointer;
+}
+.block_Right img {
+    width: 50px;
+    margin-top: 50px;
+}
