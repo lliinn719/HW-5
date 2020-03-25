@@ -64,10 +64,8 @@ body {
 }
 .sidebar{
   width:15%;
-  height:2855px;
   float: left;
   background-color: #fff;
-  border-right: 1px solid #bec0c7;
 }
 .sidebar p {
   color: #bec0c7;
@@ -118,8 +116,8 @@ body {
 }
 .content {
   width: 85%;
-  height:2855px;
   float: left;
+  border-left: 1px solid #bec0c7;
 }
 .content .banner img {
   width: 100%;
