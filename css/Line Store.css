@@ -10,6 +10,9 @@ li {
 a {
   text-decoration: none;
 }
+body {
+  width: 100%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -60,7 +63,7 @@ a {
   display: inline;
 }
 .sidebar{
-  width:200px;
+  width:15%;
   height:2855px;
   float: left;
   background-color: #fff;
@@ -114,7 +117,7 @@ a {
   padding: 5px 0px;
 }
 .content {
-  width: 1060px;
+  width: 85%;
   height:2855px;
   float: left;
 }
@@ -158,6 +161,9 @@ a {
   margin-left: 30px;
   border-bottom: 0.5px solid #f0f0f0;
 }
+.img_box img:hover { 
+  cursor: pointer;
+}
 .img_box img {
   width: 250px;
   padding-right: 15px;
@@ -182,7 +188,10 @@ a {
   align-items:center;
 }
 .content .bottom {
-  width: 1060px;
+  width: 100%;
+}
+.content .bottom:hover {
+  cursor: pointer;
 }
 .content_block2 {
   width: 900px;
@@ -204,7 +213,7 @@ a {
   width: 150px;
 }
 footer {
-  clear: both;
+  width: 100%;
 }
 .footer_block {
   background-color: #f7f7fc;
